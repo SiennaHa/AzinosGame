@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: c17bf94b828030342a1f44139a0c4074
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3948238651750361686
+    second: roomSprites_0
+  - first:
+      213: -4761596851962134251
+    second: roomSprites_1
+  - first:
+      213: -6588928587802207223
+    second: roomSprites_2
+  - first:
+      213: 2606458816085431744
+    second: roomSprites_3
+  - first:
+      213: 5343138448305126169
+    second: roomSprites_4
+  - first:
+      213: -1924233315314996418
+    second: roomSprites_5
+  - first:
+      213: -2819467211050073183
+    second: roomSprites_6
+  - first:
+      213: 3363154805295138474
+    second: roomSprites_7
+  - first:
+      213: -1010451329801258333
+    second: roomSprites_8
+  - first:
+      213: -3193980982239657963
+    second: roomSprites_9
+  - first:
+      213: -2930904608668537038
+    second: roomSprites_10
+  - first:
+      213: -1453508696512072665
+    second: roomSprites_11
+  - first:
+      213: 5644101564452087326
+    second: roomSprites_12
+  - first:
+      213: 5683391555305472659
+    second: roomSprites_13
+  - first:
+      213: 3398713085372725816
+    second: roomSprites_14
+  - first:
+      213: -8026463799513344142
+    second: roomSprites_15
+  - first:
+      213: 5568987659992242594
+    second: roomSprites_16
+  - first:
+      213: -7677377390539655863
+    second: roomSprites_17
+  - first:
+      213: -5018641752421846285
+    second: roomSprites_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roomSprites_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 120
+        width: 793
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c12a9eb5c6f84a0800000000000000
+      internalID: -6588928587802207223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 62
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51080461833bca3d0800000000000000
+      internalID: -3193980982239657963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_10
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1
+        width: 106
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fa1c979c55357d0800000000000000
+      internalID: -2930904608668537038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 8
+        width: 117
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724f472aa8914dbe0800000000000000
+      internalID: -1453508696512072665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 9
+        width: 118
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16a4691870e35e40800000000000000
+      internalID: 5644101564452087326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_13
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 6
+        width: 115
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3920075f1867fde40800000000000000
+      internalID: 5683391555305472659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 6
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83afc134b87aa2f20800000000000000
+      internalID: 3398713085372725816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_15
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 7
+        width: 108
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277997b43b54c9090800000000000000
+      internalID: -8026463799513344142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roomSprites_18
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 5
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2b3f38ae33a5ab0800000000000000
+      internalID: -5018641752421846285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3be90e1dfc457524ead786048b41ca33
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      roomSprites_0: -3948238651750361686
+      roomSprites_1: -4761596851962134251
+      roomSprites_10: -2930904608668537038
+      roomSprites_11: -1453508696512072665
+      roomSprites_12: 5644101564452087326
+      roomSprites_13: 5683391555305472659
+      roomSprites_14: 3398713085372725816
+      roomSprites_15: -8026463799513344142
+      roomSprites_16: 5568987659992242594
+      roomSprites_17: -7677377390539655863
+      roomSprites_18: -5018641752421846285
+      roomSprites_2: -6588928587802207223
+      roomSprites_3: 2606458816085431744
+      roomSprites_4: 5343138448305126169
+      roomSprites_5: -1924233315314996418
+      roomSprites_6: -2819467211050073183
+      roomSprites_7: 3363154805295138474
+      roomSprites_8: -1010451329801258333
+      roomSprites_9: -3193980982239657963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
