@@ -54,9 +54,9 @@ public class GameManager : MonoBehaviour
             if (currentScore > currentHightScore)
             {
                 currentHightScore = currentScore;
-                highScoreWrite.text = highScoreWrite.ToString();
+                highScoreWrite.text = currentHightScore.ToString();
         }
-
+        StartCoroutine(DeadMenu());
     }
 
     public void Home()
@@ -68,6 +68,11 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         startButton.text = "Fly Again!";
+    }
+    IEnumerator DeadMenu()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("EndMenu");
     }
 
 }
