@@ -7,11 +7,11 @@ public class YesNo : MonoBehaviour
     public Azinos azinosScript;
     public Dialogue dialogueScript;
 
-    public GameObject yes;    
-    public GameObject no;    
+    [SerializeField] GameObject yes;
+    [SerializeField] GameObject no;    
 
-    public BoxCollider2D colliderYes;
-    public BoxCollider2D colliderNo;
+    //public BoxCollider2D colliderYes;
+    //public BoxCollider2D colliderNo;
 
     public bool waitingOption;
 
@@ -22,37 +22,38 @@ public class YesNo : MonoBehaviour
     }
 
 
-    void Update()
-    {   
+
+    //void Update()
+    //{   
     
     
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    //    if (Input.GetMouseButtonDown(0))
+    //    {
+    //        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+    //        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-            if (hit.collider != null)
-            {
-                if (hit.collider == colliderYes)
-                {
-                    Yes();
-                    ToggleOptions(false);
-                    waitingOption = false;
-                }
+    //        if (hit.collider != null)
+    //        {
+    //            if (hit.collider == colliderYes)
+    //            {
+    //                Yes();
+    //                ToggleOptions(false);
+    //                waitingOption = false;
+    //            }
 
-                if (hit.collider == colliderNo)
-                {
-                    No();
-                    ToggleOptions(false);
-                    waitingOption = false;
-                }
-            }
+    //            if (hit.collider == colliderNo)
+    //            {
+    //                No();
+    //                ToggleOptions(false);
+    //                waitingOption = false;
+    //            }
+    //        }
 
-        }
+    //    }
 
 
-    }
+    //}
 
     void ToggleOptions(bool show)
     {
@@ -66,18 +67,20 @@ public class YesNo : MonoBehaviour
 
     }
 
-    void Yes()
+    public void Yes()
     {
         ToggleOptions(false);
+        waitingOption = false;
         azinosScript.GoOut();
 
         StartCoroutine(WaitThenLeave());
     }
 
 
-    void No()
+    public void No()
     {
         ToggleOptions(false);
+        waitingOption = false;
         azinosScript.Nevermind();
     }
 
