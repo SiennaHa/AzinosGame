@@ -8,6 +8,7 @@ public class ClickAzinos : MonoBehaviour
     public Dialogue dialogueScript;
     public Azinos azinosScript;
     public YesNo optionScript;
+    public Pause pauseScript;
 
 
     public BoxCollider2D colliderEyes;
@@ -39,7 +40,7 @@ public class ClickAzinos : MonoBehaviour
         //    colliderHair.enabled = true;
         //}
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && pauseScript.isPaused == false)
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 61a1e0bf78574fb4d8203a5cdcb0b393
+guid: 897479799dd85a7479f4e311e41eb874
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1298108196710839614
-    second: menubutton_0
+      213: 5999579440367834958
+    second: topzinos_skates_0
+  - first:
+      213: 7640435383118680159
+    second: topzinos_skates_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: menubutton_0
+      name: topzinos_skates_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 14
-        width: 134
-        height: 144
+        x: 109
+        y: 10
+        width: 27
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e35f8f8f68ec30210800000000000000
-      internalID: 1298108196710839614
+      spriteID: e479cd0c6b9c24350800000000000000
+      internalID: 5999579440367834958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topzinos_skates_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 13
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f505d1c0087480a60800000000000000
+      internalID: 7640435383118680159
       vertices: []
       indices: 
       edges: []
@@ -151,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      menubutton_0: 1298108196710839614
+      topzinos_skates_0: 5999579440367834958
+      topzinos_skates_1: 7640435383118680159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

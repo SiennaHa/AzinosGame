@@ -10,6 +10,10 @@ public class MainMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    public void LoadIce()
+    {
+        SceneManager.LoadScene("IceSkating");
+    }
 
     public void MainMenu()
     {

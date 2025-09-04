@@ -6,6 +6,7 @@ public class ClickRoom : MonoBehaviour
     public Dialogue dialogueScript;
     public Azinos azinosScript;
     public YesNo optionScript;
+    public Pause pauseScript;
 
 
     public PolygonCollider2D colliderBed;
@@ -33,7 +34,7 @@ public class ClickRoom : MonoBehaviour
 
         //}
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && pauseScript.isPaused == false)
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 

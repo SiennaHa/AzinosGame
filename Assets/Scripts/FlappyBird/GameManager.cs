@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
 
     public void Home()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("AzinosRoom");
     }
  
     IEnumerator Wait()
